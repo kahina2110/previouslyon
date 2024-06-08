@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+    padding: 40px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+  
+  img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .card {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .card p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }  

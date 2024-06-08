@@ -1,0 +1,82 @@
+ul.episode-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  ul.episode-list li {
+    margin-bottom: 10px;
+  }
+  
+  ul.episode-list li p.episode-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  ul.episode-list li p.episode-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  
+  button.selected-season {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button.selected-season:hover {
+    background-color: #0056b3;
+  }
+  
+  .serie-details {
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .serie-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .serie-subtitle {
+    font-size: 20px;
+  }
+  
+  .serie-info {
+    font-size: 16px;
+  }
+  
+  .serie-button {
+    margin: 10px;
+  }
+  
+  .episode-info {
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto 10px auto;
+    text-align: left;
+  }
+  
+  .episode-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .episode-title {
+    font-weight: bold;
+  }
+  
+  .episode-date,
+  .episode-note,
+  .episode-summary {
+    margin-top: 10px;
+  }

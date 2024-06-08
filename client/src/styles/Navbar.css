@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #7d7a7a;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+
+  img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container { display: flex;}
+
+  input {
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 30px;
+  }

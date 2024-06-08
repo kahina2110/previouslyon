@@ -1,0 +1,57 @@
+/* Style de la liste des épisodes */
+ul.episode-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style d'une carte d'épisode */
+ul.episode-list li {
+  width: calc(16.66% - 10px); /* Pour afficher 6 cartes par ligne avec un espace de 10px entre elles */
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* Ajout d'une bordure */
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Transition sur la propriété transform */
+  cursor: pointer;
+}
+
+/* Effet de zoom au survol */
+ul.episode-list li:hover {
+  transform: scale(1.05); /* Zoom au survol */
+}
+
+/* Style de l'image de l'épisode */
+ul.episode-list li img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* Style du titre de l'épisode */
+ul.episode-list li p.episode-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Style du bouton pour chaque épisode */
+ul.episode-list li button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+ul.episode-list li button:hover {
+  background-color: #0056b3;
+}
